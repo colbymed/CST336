@@ -1,0 +1,46 @@
+.product {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  float:right;
+}
+#logo {
+  width: 50px;
+}
+#top {
+  background-color: rgba(75, 123, 255, 0.527);
+  border: 2px solid rgb(75, 123, 255);
+  border-radius: 5px;
+}
+h1 {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.listing {
+  display: block;
+} 
+#top {
+  display: flex;
+}
+button {
+  height: 20px;
+}
+body {
+  background-color: rgb(160, 255, 227);
+  font-family: 'Josefin Sans', sans-serif;
+}
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+.name {
+  font-size:25px;
+}
+#fields {
+  font-size: 20px;
+  font-weight: bold;
+}
+#discount {
+  font-style: italic;
+  font-weight: normal;
+}

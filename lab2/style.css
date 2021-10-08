@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+ /* background-image:  */
+  background-size: cover;
+}
+#guess {
+  width: 400px;
+  margin: 0 auto;
+}
+ #spacing{
+  padding-top: 2%;
+} 
+.alert {
+  font-size: 20px;
+}

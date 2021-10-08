@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Sign Up Page </title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="rounded-top border border-2 p-2 m-2">
+      <h1> Sign Up Form </h1>
+    </header>
+    <fieldset  class="rounded-bottom border border-2 p-2 m-2" style="--bs-bg-opacity: .33;">
+      <legend >Sign Up</legend>
+      First Name: <input class="rounded" type="text"><br> 
+      Last Name: <input class="rounded" type="text"><br> 
+      Email: <input class="rounded" type="text" placeholder="example@email.com"><br> 
+      Phone Number: <input class="rounded" type="text" placeholder="XXX-XXX-XXXX"><br><br>
+      Zip Code: <input class="rounded" id="zip" type="text"><span id="validZip"></span>
+      <br>
+      City: <span id="city"></span>
+      <br>
+      Latitude: <span id="latitude"></span>
+      <br>
+      Longitude: <span id="longitude"></span>
+      <br><br>
+      State: <select class="rounded" id="states">
+        <option>Select:</option>
+      </select>
+      <br>
+      Select a County: <select class="rounded" id="counties"></select>
+      <br>
+
+      Desired Username: <input class="rounded" id="userName" type="text"><span id="availability"></span><br>
+      
+      Password: <input class="rounded" id="password" type="password"><span id="suggested"></span><br>
+      Type Password Again: <input class="rounded" id="passwordRetype" type="password"><br>
+      <input id="button" class="rounded" type="submit" value="Sign up!"><span id="submitValid"></span>
+    </fieldset>
+    <span id="correct"></span>
+    <script src="script.js"></script>
+  </body>
+</html>

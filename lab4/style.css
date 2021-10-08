@@ -1,0 +1,15 @@
+header {
+  background-color: #CFE2FF;
+}
+body {
+  background-color: #ADB5BD;
+}
+fieldset {
+  background-color: #A6D9E5;
+}
+input,select {
+  margin: 2px;
+}
+#validZip {
+  color:red;
+}

@@ -1,0 +1,22 @@
+#images {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+}
+figure {
+  padding: 10px;
+}
+body {
+  background-size: cover;
+  background-repeat: none;
+}
+#validateSearch{
+  color: red;
+}
+.bg-light{
+  --bs-bg-opacity: .5;
+}
+select, input {
+  margin: 0 auto;
+}

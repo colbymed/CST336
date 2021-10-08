@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="top">
+      <img id="logo" src="img/logo.png" alt="Website logo">
+      <h1> Shopping Cart </h1>
+    </div>
+    <hr>
+    <div class="listing">
+      <img class="product" src="img/bat.jpg" alt="Baseball bat">
+      <p class="name">Baseball Bat</p>
+      <button id="minusBat">-</button>
+      Quantity: <span id="batQuantity"></span>
+      <button id="plusBat">+</button>
+      <p class="price">$89.99</p>
+    </div>
+    <hr>
+    <div class="listing">
+      <img class="product" src="img/ball.png" alt="Baseball">
+      <p class="name">Baseball</p>
+      <button id="minusBall">-</button>
+      Quantity: <span id="ballQuantity"></span>
+      <button id="plusBall">+</button>
+      <p class="price">$2.99</p>
+    </div>
+    <hr>
+    <div class="listing">
+      <img class="product" src="img/glove.png" alt="Baseball glove">
+      <p class="name">Baseball Glove</p>
+      <button id="minusGlove">-</button>
+      Quantity: <span id="gloveQuantity"></span>
+      <button id="plusGlove">+</button>
+      <p class="price">$45.99</p>
+    </div>
+    <hr>
+    <div id="fields">
+      Coupon: <input id="coupon" type="text"> <button id="applyCoupon">Apply</button><span id="discount"></span><br>
+      Subtotal: $<span id="subtotal"></span> <br>
+      Tax: $<span id="tax"></span> <br>
+      Total: $<span id="total"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
