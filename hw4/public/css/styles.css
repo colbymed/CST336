@@ -1,0 +1,54 @@
+h1, h2, nav, p {
+  text-align: center;
+}
+figure:hover {
+  color:black;
+  font-weight: bold;
+  font-size: 110%;
+  transition: .75s;
+  background-color: rgb(196,192,218);
+  border-radius: 10px;
+  padding:2px;
+  box-shadow: 5px 5px;
+}
+figure:active {
+  box-shadow: 0px 0px;
+  transition: .1s;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: rgb(206,231,159);
+}
+img {
+  height: 300px;
+}
+nav, div {
+  display:flex;
+  justify-content: center;
+}
+li, summary {
+  font-size: 22px;
+}
+ul, ol {
+  width: 750px;
+}
+ol {
+  list-style: upper-roman;
+}
+.sourceLink:hover {
+  color:red;
+}
+p {
+  font-size: 20px;
+}
+td { 
+    padding: 10px;
+    font-size: 30px;
+}
+.num {
+    border: 1px solid black;
+}
+.example {
+    width: 350px;
+    padding: 5px;
+}

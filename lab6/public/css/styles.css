@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  color:white;
+  background-color: black;
+}
+a {
+  padding: 5px;
+}
+img {
+  border-radius: 10px;
+  border: solid white 5px;
+  height: 500px;
+}
+p {
+  width: 1000px;
+  margin: 0 auto;
+}

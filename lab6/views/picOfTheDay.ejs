@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/headInfo") %>
+<body>
+  <h1> Nasa's Media of the Day </h1>
+  <%- include("partials/menu.ejs") %>
+  <h2> <%= title %> </h2>
+
+  <img src="<%= image  %>">
+  <br><br>
+  <p> <%= description %> </p>
+  <i> -Nasa </i>
+</body>
+</html>

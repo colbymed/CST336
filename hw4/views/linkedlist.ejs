@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <%- include("partials/headInfo") %>
+    <body>
+        <header>
+            <h1> <a href="/">Data Structures</a> </h1>
+            <h2> <%= title %> </h2>
+        </header>
+        <hr>
+        <main>
+            <%- include("partials/smallNav") %>
+            <div>
+                <img src=<%= image %> alt="Linked List">
+                <ul> 
+                    <li> A linked list is a list that is dynamic in size, and is efficent at adding and removing elements. </li>
+                    <li> A linked list is made out of "nodes". Each node contains data, and a link, or reference, to the next node. </li>
+                    <li> A linked list can be used to create a stack or a queue. </li>
+                    <li>
+                        <details> 
+                            <summary> Linked lists can be singly-linked, doubly-linked, or circular. </summary>
+                            <ol>
+                                <li> Singly-linked lists only have a reference from each node to the next. </li>
+                                <li> Doubly-linked lists have nodes with references to the previous and next node. </li>
+                                <li> Circular linked lists are singly-linked lists, with the difference being that the "last" node has its next node linked to the first.</li>
+                            </ol>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        <cite>Source: <a class="sourceLink" href="https://www.geeksforgeeks.org/data-structures/linked-list/">GeeksforGeeks</a> </cite>
+        </main>
+        <%- include("partials/footer") %>
+        <script src="script.js"></script>
+    </body>
+</html>

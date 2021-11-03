@@ -1,0 +1,35 @@
+header img{
+    position: absolute;
+    left: 15px;
+    top: 35px;
+}
+header {
+    text-align: center;
+    padding: 40px 0;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(156, 202, 255);
+    position: relative;
+}
+select {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+button {
+    margin: 0 auto;
+}
+#valid {
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: rgb(180, 183, 187);
+}
+table {
+    background-color: white;
+    border-radius: 10px;
+}
+#tableDiv {
+    margin: 10px;
+}
